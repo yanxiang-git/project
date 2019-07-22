@@ -15,7 +15,5 @@ int main(void)
 	else
 		puts("输入的两个整数相等");
 
-
-	return 0;
-
+	return 0;ƒ
 }

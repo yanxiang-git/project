@@ -16,7 +16,6 @@ int main(void) {
         for (j = 1; j <= width; j++)
             putchar('*');
         putchar('\n');
-
     }
 
     return 0;

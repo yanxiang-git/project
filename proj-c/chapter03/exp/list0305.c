@@ -11,7 +11,7 @@ int main(void) {
 
     if (no == 0)
         puts("输入的整数是为0。");
-        else
-            puts("输入的整数不是为0。");
-            return 0;
+    else
+        puts("输入的整数不是为0。");
+    return 0;
 }

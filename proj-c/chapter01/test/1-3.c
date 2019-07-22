@@ -6,5 +6,6 @@
 int main(void)
 {
 	printf("喂喂喂\n\n你好!\n再见。\n");
+	
 	return 0;
 }

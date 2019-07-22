@@ -3,15 +3,14 @@
 */
 #include <stdio.h>
 
-int main(void)
-{
-	int a,b;
+int main(void) {
+    int a, b;
 
-	puts("输入两个整数。 ");  
-	printf("整数a: "); scanf("%d",&a);
-	printf("整数b: "); scanf("%d",&b);
+    puts("输入两个整数。 ");
+    printf("整数a: "); scanf("%d", &a);
+    printf("整数b: "); scanf("%d", &b);
 
-	printf("a的值是b的%f%%。\n",(double)100 * a / b  );
+    printf("a的值是b的%f%%。\n", (double)100 * a / b  );
 
-	return 0;
+    return 0;
 }

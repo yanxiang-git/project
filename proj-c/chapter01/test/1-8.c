@@ -11,6 +11,6 @@ int main(void) {
     printf("整数2："); scanf("%d", &n2);
 
     printf("读取两个整数的乘积%d。\n", n1 * n2 );
-    
+
     return 0;
 }

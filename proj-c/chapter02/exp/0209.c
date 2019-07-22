@@ -10,9 +10,9 @@ int main(void) {
     printf("整数a: \n"); scanf("%d", &a);
     printf("整数b: \n"); scanf("%d", &b);
 
-   // printf("它们的平均值:%f。\n",(double)(a + b)/ 2);
+    // printf("它们的平均值:%f。\n",(double)(a + b)/ 2);
 
-    printf("它们的平均值:%f。\n",(a + b)/ 2.0);
+    printf("它们的平均值:%f。\n", (a + b) / 2.0);
 
 
     return 0;

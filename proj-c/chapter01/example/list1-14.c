@@ -3,7 +3,8 @@
 */
 #include <stdio.h>
 
-int main(void) {
+int main(void)
+{
     int n1, n2;
     int wa;
 
@@ -12,6 +13,8 @@ int main(void) {
     printf("整数2："); scanf("%d", &n2);
 
     wa = n1 + n2;
+    
     printf("它们的和是%d。\n", wa);
+   
     return 0;
 }

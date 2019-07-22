@@ -5,7 +5,7 @@
 
 int main(void) {
     int a;
-    int i ;
+    int i;
 
     i = 0;
 
@@ -15,11 +15,9 @@ int main(void) {
         printf("%d ", i);
 
         i = i + 2;
-
     }
 
     printf("\n");
-
 
     return 0;
 }

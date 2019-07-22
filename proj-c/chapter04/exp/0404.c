@@ -20,5 +20,6 @@ int main(void)
 	} while(retry == 0);
 
 	printf("和为%d,平均值为%.2f。\n", sum,(double) sum / cnt );
+	
 	return 0;
 }

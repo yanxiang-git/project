@@ -3,14 +3,14 @@
 */
 #include <stdio.h>
 
-int main(void)
-{
-	int no;
+int main(void) {
+    int no;
 
-	printf("输入的整数: ");
-	scanf("%d",&no);
+    printf("输入的整数: ");
+    scanf("%d", &no);
 
-	if(no % 2)
-	puts("输入的整数是奇书。");
-	return 0;
+    if (no % 2)
+        puts("输入的整数是奇书。");
+   
+    return 0;
 }

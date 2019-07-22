@@ -13,9 +13,7 @@ int main(void) {
 
     for (i = 0; i < 5; i++) {
         printf("a[%d]=%d 。\n", i, a[i] );
-
     }
-
 
     return 0;
 }

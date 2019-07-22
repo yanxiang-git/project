@@ -16,9 +16,7 @@ int main(void) {
     case 0: printf("石头。\n"); break;
     case 1: printf("剪刀。\n"); break;
     case 2: printf("布。\n"); break;
-
     }
-
 
     return 0;
 }

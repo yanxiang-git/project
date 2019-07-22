@@ -15,7 +15,7 @@ int main(void) {
         sum += a[i];
     }
     printf("和为%5d\n", sum );
-    printf("平均值:%.3f\n",(double) sum / 5 );
+    printf("平均值:%.3f\n", (double) sum / 5 );
 
 
     return 0;

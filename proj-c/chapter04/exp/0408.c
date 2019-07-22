@@ -14,12 +14,11 @@ int main(void) {
     // }
     // putchar('\n');
 
-while (a++ < 0) {
+    while (a++ < 0) {
 
         putchar('*');
     }
     putchar('\n');
-
 
     return 0;
 }

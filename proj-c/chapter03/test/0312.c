@@ -14,10 +14,8 @@ int main(void)
     switch (no % 2) {
     case 0 : puts("整数值是偶数");              break;
     case 1 : puts("整数值是奇数");        	      break;
-    default :puts("输入的值有问题");
-
+    default : puts("输入的值有问题");
     }
-
 
     return 0;
 }

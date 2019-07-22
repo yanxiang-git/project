@@ -7,8 +7,8 @@ int main(void) {
 
     int i = 1 ;
     int sum;
-     sum = 0;  
-    
+    sum = 0;
+
     // do {
     //     sum = sum + i; i++;
     // } while (i <= 100);
@@ -23,11 +23,10 @@ int main(void) {
 
 
     for (i = 1; i <= 100; i++)
-
         sum = sum + i;
-        putchar('\n');
+    putchar('\n');
 
-    printf("和为: %d。\n",sum);
+    printf("和为: %d。\n", sum);
 
     return 0;
 }

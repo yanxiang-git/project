@@ -5,19 +5,18 @@
 */
 #include <stdio.h>
 
-int main(void)
-{
-	int A,B;
+int main(void) {
+    int A, B;
 
-	printf("输入整数A: "); scanf("%d",&A);
-	printf("输入整数B: "); scanf("%d",&B);
+    printf("输入整数A: "); scanf("%d", &A);
+    printf("输入整数B: "); scanf("%d", &B);
 
-	if(A == B)
-		puts("A和B相等。");
-	  else if(A > B)
-	  	puts("A大于B。");
-	 else
-	 	puts("A小于B");
+    if (A == B)
+        puts("A和B相等。");
+    else if (A > B)
+        puts("A大于B。");
+    else
+        puts("A小于B");
 
-	return 0;
+    return 0;
 }

@@ -14,7 +14,7 @@ int main(void) {
     for (i = 0; i < 2; i++) {
         int temp = a[i];
 
-        a[i] 	 = a[4 - i];
+        a[i]     = a[4 - i];
         a[4 - i] = temp;
     }
 

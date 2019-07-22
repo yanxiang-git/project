@@ -3,15 +3,14 @@
 */
 #include <stdio.h>
 
-int main(void)
-{
-	double a,b;
+int main(void) {
+    double a, b;
 
-	puts("输入两个实数: ");
-	printf("实数a: " ); scanf("%lf",&a);
-	printf("实数b: " ); scanf("%lf",&b);
+    puts("输入两个实数: ");
+    printf("实数a: " ); scanf("%lf", &a);
+    printf("实数b: " ); scanf("%lf", &b);
 
-	printf("它们的和差积商是:\n%f,\n%f,\n%f,\n%f,\n",a + b,a - b,a * b,a / b);
+    printf("它们的和差积商是:\n%f,\n%f,\n%f,\n%f,\n", a + b, a - b, a * b, a / b);
 
-	return 0;
+    return 0;
 }

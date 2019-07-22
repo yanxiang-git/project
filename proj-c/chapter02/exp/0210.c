@@ -3,17 +3,16 @@
 */
 #include <stdio.h>
 
-int main(void)
-{
-	int a,b;
+int main(void) {
+    int a, b;
 
-	puts("输入两个整数: ");
-	printf("整数a: \n"); scanf("%d",&a);
-	printf("整数b: \n"); scanf("%d",&b);
+    puts("输入两个整数: ");
+    printf("整数a: \n"); scanf("%d", &a);
+    printf("整数b: \n"); scanf("%d", &b);
 
-	printf("平均值是:%f。\n",(double)(a + b)/2 );
-
+    printf("平均值是:%f。\n", (double)(a + b) / 2 );
 
 
-	return 0;
+
+    return 0;
 }

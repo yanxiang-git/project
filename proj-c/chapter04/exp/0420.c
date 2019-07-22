@@ -11,11 +11,10 @@ int main(void) {
         printf("输入一个正整数: ");  scanf("%d", &no);
 
         if (no < 0) {
-            printf("请不要输入负整数! \n"); 		
+            printf("请不要输入负整数! \n");
         }
         for (i = 1; i <= no ; i++) {
             putchar('*');
-
         }
 
         putchar('\n');

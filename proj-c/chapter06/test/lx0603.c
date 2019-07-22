@@ -3,19 +3,16 @@
 */
 #include <stdio.h>
 
-int cube(int x)
-{
-	return x*x*x;
+int cube(int x) {
+    return x * x * x;
 }
 
-int main(void)
-{
-	int a;
+int main(void) {
+    int a;
 
-	printf("输入整数: "); scanf("%d",&a);
+    printf("输入整数: "); scanf("%d", &a);
 
-	printf("该整数的立方为:%d\n",cube(a));
+    printf("该整数的立方为:%d\n", cube(a));
 
-
-	return 0;
+    return 0;
 }

@@ -24,21 +24,19 @@ int main(void) {
     switch (month) {
     case 12 :
     case 1 :
-    case 2 : puts("是冬季。");        	      break;
+    case 2 : puts("是冬季。");                break;
     case 3 :
     case 4 :
-    case 5 : puts("春季");        	          break;
+    case 5 : puts("春季");                      break;
     case 6:
     case 7 :
-    case 8 : puts("夏季");        	          break;
+    case 8 : puts("夏季");                      break;
     case 9 :
-    case 10 :  
-    case 11: puts("秋季");        	          break;
+    case 10 :
+    case 11: puts("秋季");                      break;
 
     default : puts("输入的月份有问题");
-
     }
-
 
     return 0;
 }

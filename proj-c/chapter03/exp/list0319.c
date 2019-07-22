@@ -14,5 +14,6 @@ int main(void) {
     case 1 : puts("整数不能被整除，余数为1");   break;
     case 2 : puts("整数不能被整除，余数为2");   break;
     }
+
     return 0;
 }

@@ -4,15 +4,12 @@
 
 #include <stdio.h>
 
-int main(void)
-{	
-	int a[5] = { 5 , 4 , 3 , 2 , 1 };
-	int i;
+int main(void) {
+    int a[5] = { 5 , 4 , 3 , 2 , 1 };
+    int i;
 
-	for(i = 0; i < 5;i++)
-		printf("a[%d] = %d\n",i,a[i]);
+    for (i = 0; i < 5; i++)
+        printf("a[%d] = %d\n", i, a[i]);
 
-
-
-	return 0;
+    return 0;
 }

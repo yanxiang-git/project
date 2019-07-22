@@ -9,7 +9,6 @@ int main(void) {
     printf("输入整数: "); scanf("%d", &a);
 
     while (a > 0) {
-
         putchar('*');
     }
     putchar('\n');

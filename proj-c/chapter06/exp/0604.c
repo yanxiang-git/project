@@ -20,10 +20,7 @@ int main(void) {
     printf("整数3: "); scanf("%d", &n3);
     printf("整数4: "); scanf("%d", &n4);
 
-    printf("输入四个整数里面最大值是:%d\n",max4(n1,n2,n3,n4));
-
-
-
+    printf("输入四个整数里面最大值是:%d\n", max4(n1, n2, n3, n4));
 
     return 0;
 }

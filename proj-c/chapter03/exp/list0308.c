@@ -13,5 +13,6 @@ int main(void) {
         puts("个位数是5。");
     else
         puts("个位数不是5.");
-        return 0;
+
+    return 0;
 }

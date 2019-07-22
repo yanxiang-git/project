@@ -10,8 +10,9 @@ int main(void) {
     scanf("%d", &no);
 
     if ( no >= 0)
-        printf("绝对值是:%d。\n",no);
+        printf("绝对值是:%d。\n", no);
     else
-        printf("绝对值是:%d。\n",-no);
+        printf("绝对值是:%d。\n", -no);
+
     return 0;
 }

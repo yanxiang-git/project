@@ -4,28 +4,24 @@
 #include <stdio.h>
 
 //返回x的n次幂
-double power(double x,int n)
-{
-	int i;
-	double tmp = 1.0;
+double power(double x, int n) {
+    int i;
+    double tmp = 1.0;
 
-	for (i = 1;i < n;i++)
-		tmp *= x;
-	return tmp;
-
+    for (i = 1; i < n; i++)
+        tmp *= x;
+    return tmp;
 }
 
-int main(void)
-{	
-	double a;
-	int b;
+int main(void) {
+    double a;
+    int b;
 
-	printf("求a的b次幂。\n");
-	printf("实数a: "); scanf("%lf",&a);
-	printf("整数b: "); scanf("%d",&b);
+    printf("求a的b次幂。\n");
+    printf("实数a: "); scanf("%lf", &a);
+    printf("整数b: "); scanf("%d", &b);
 
-	printf("%f的%d次幂是%f\n",a,b,power(a,b) );
+    printf("%f的%d次幂是%f\n", a, b, power(a, b) );
 
-
-	return 0;
+    return 0;
 }

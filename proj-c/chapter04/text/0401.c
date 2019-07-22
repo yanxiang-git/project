@@ -10,7 +10,7 @@ int main(void) {
     do {
         printf("输入整数: ");
         scanf("%d", &no);
-        
+
         if (no == 0)
             puts("整数是0");
         else if (no > 0)
@@ -20,8 +20,7 @@ int main(void) {
 
         printf("是否继续？<yes···0/no···9>: ");
         scanf("%d", &retry);
-    }while (retry == 0)
+    } while (retry == 0)
 
-    
-    return 0;
+        return 0;
 }

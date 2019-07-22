@@ -26,15 +26,15 @@ int main(void) {
 
     printf("请输入%d名学生的分数。\n", NUMBER );
     for (i = 0; i < NUMBER; i++) {
-        printf("[%d]英语: ", i+1 ); scanf("%d", &eng[i]);
-        printf("   数学: "); 	   scanf("%d", &mat[i]);
+        printf("[%d]英语: ", i + 1 ); scanf("%d", &eng[i]);
+        printf("   数学: ");     scanf("%d", &mat[i]);
 
     }
-    max_e = max_of(eng,NUMBER);
-    max_m = max_of(mat,NUMBER);
+    max_e = max_of(eng, NUMBER);
+    max_m = max_of(mat, NUMBER);
 
-    printf("英语的最高分=%d\n",max_e );
-    printf("数学的最高分=%d\n",max_m );
+    printf("英语的最高分=%d\n", max_e );
+    printf("数学的最高分=%d\n", max_m );
 
     return 0;
 }

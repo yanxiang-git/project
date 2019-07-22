@@ -5,7 +5,7 @@
 
 int main(void) {
     int a = 100;
-    int * pa = &a;					// * pxx 是取地址
+    int * pa = &a;                  // * pxx 是取地址
 
     printf("%d\n", *pa );
 
@@ -15,7 +15,7 @@ int main(void) {
     float * pf = &fa;
     char * pc = &ca;
 
-    printf("%.1f\n", *pf );  	//*pxx 是一个数
+    printf("%.1f\n", *pf );     //*pxx 是一个数
     printf("%c\n", *pc );
 
     pf = &fb;
